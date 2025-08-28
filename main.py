@@ -15,6 +15,7 @@ flights = load_data()
 
 st.set_page_config(page_title="Dashboard de Voos", layout="wide")
 st.title("✈️ Dashboard Interativo de Voos")
+st.image("https://www.shutterstock.com/image-vector/airplane-flying-hud-screen-analysis-600nw-1545254336.jpg", width=500)
 
 col1, col2, col3 = st.columns(3)
 
